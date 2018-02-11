@@ -1,3 +1,5 @@
+@import url(https://malcat-gen.appspot.com/series?preset=dataimagelinkbefore);
+
 	/*Main color variables*/
 	:root
 	{
@@ -368,6 +370,36 @@
 	.list-table .list-table-data .data.status.dropped
 	{
 		background-color: var(--red) !important;
+	}
+
+
+	/*Covers*/
+	/*Thanks to Takana_no_Hana's layout from here https://myanimelist.net/forum/?topicid=1568061*/
+	.data.image a:before
+	{
+		content: "";
+		display: block !important;
+		position: fixed;
+		top: 25%;
+		right: calc(45% + 540px);
+		width: 180px;
+		height: 230px;
+		background-color: transparent;
+		background-position: center !important;
+		background-repeat: no-repeat !important;
+		background-size: cover;
+		box-shadow: var(--shadow);
+		visibility: hidden;
+		opacity: 0;
+		transition: opacity .8s linear, margin-left .5s ease, transform 1s ease-in-out;
+		z-index: 5;
+	}
+	.list-table .list-table-data:hover .data.image a:before
+	{
+		visibility: visible;
+		opacity: 1;
+		right: calc(50% + 530px);
+		transition: .3s ease-out;
 	}
 
 
