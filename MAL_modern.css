@@ -163,14 +163,58 @@
 	{
 		color: var(--main-text) !important;
 	}
-	.status-menu-container .status-menu .status-button:hover
-	{
-		color: var(--main-color) !important;
-	}
+  	/*Colored entries*/
+	/*Bars*/
+	.status-button.completed.on::after, .status-button.completed::after,
+	.status-button.all_anime.on::after, .status-button.all_anime::after,
 	.status-menu-container .status-menu .status-button::after
 	{
-		background-color: var(--main-color) !important;
+		background-color: var(--main-color);
 	}
+	.status-button.reading.on::after, .status-button.reading::after,
+	.status-button.watching.on::after, .status-button.watching::after
+	{
+		background-color: var(--green) !important;
+	}
+	.status-button.onhold.on::after, .status-button.onhold::after
+	{
+		background-color: var(--yellow) !important;
+	}
+	.status-button.dropped.on::after, a.status-button.dropped::after
+	{
+		background-color: var(--red) !important;
+	}
+	.status-button.plantowatch::after, .status-button.plantowatch.on::after,
+	.status-button.plantoread::after, .status-button.plantoread.on::after
+	{
+		background-color: #c3c3c3 !important;
+	}
+	/*Links*/
+	.status-button.completed.on:hover, .status-button.completed:hover,
+	.status-button.all_anime.on:hover, .status-button.all_anime:hover
+	{
+		color: var(--main-color) !important;;
+	}
+	.status-button.reading.on:hover, .status-button.reading:hover,
+	.status-button.watching.on:hover, .status-button.watching:hover
+	{
+		color: var(--green) !important;
+	}
+	.status-button.onhold.on:hover, .status-button.onhold:hover
+	{
+		color: var(--yellow) !important;
+	}
+	.status-button.dropped.on:hover, a.status-button.dropped:hover
+	{
+		color: var(--red) !important;
+	}
+	.status-button.plantowatch:hover, .status-button.plantowatch.on:hover,
+	.status-button.plantoread:hover, .status-button.plantoread.on:hover
+	{
+		color: #c3c3c3 !important;
+	}
+
+
 	.list-container
 	{
 		background-color: transparent !important;
