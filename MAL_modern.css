@@ -426,7 +426,7 @@
 		width: 30px !important;
 		height: auto !important;
 	}
-  	.data.image a:before
+	.data.image a:before
 	{
 		content: "";
 		display: block !important;
