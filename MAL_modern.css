@@ -16,9 +16,9 @@
 		--wallpaper: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList-MyListModern/master/Images/Background.gif");
 
 		/*Colors for status*/
-		--green: #27AE60;
-		--yellow: #FDBC4B;
-		--red: #DA4453;
+		--green: #27AE60 !important;
+		--yellow: #FDBC4B !important;
+		--red: #DA4453 !important;
 
 
 		/*DeepDark colors*/
@@ -75,8 +75,8 @@
 	/*Body*/
 	body
 	{
-		background: var(--wallpaper) #000 no-repeat center fixed;
-		background-size: cover;
+		background: var(--wallpaper) #000 no-repeat center fixed !important;
+		background-size: cover !important;
 	}
 
 
@@ -156,7 +156,7 @@
 	}
 	.status-menu-container .status-menu .status-button::after
 	{
-		background-color: var(--main-color);
+		background-color: var(--main-color) !important;
 	}
 	.list-container
 	{
@@ -169,9 +169,9 @@
 	/*Header for list*/
 	.list-unit .list-status-title, .list-unit .list-status-title .text
 	{
-    	background-color: transparent !important;
-    	color: transparent !important;
-    	height: 0 !important;
+		background-color: transparent !important;
+		color: transparent !important;
+		height: 0 !important;
 	}
 	/*Repositioning the filter buttons*/
 	.list-unit .list-status-title .stats
@@ -181,51 +181,51 @@
 	}
 	.status-menu-container .status-menu
 	{
-	  margin-left: -15px;
+		margin-left: -15px !important;
 	}
 	.list-table .list-table-header .header-title
 	{
-		background-color: var(--second-background);
-		border-color: var(--hover-background);
+		background-color: var(--second-background) !important;
+		border-color: var(--hover-background) !important;
 	}
 	.list-unit .list-status-title .stats a
 	{
-		color: var(--dimer-text);
-		font-size: 1.6em;
+		color: var(--dimer-text) !important;
+		font-size: 1.6em !important;
 	}
 	.list-unit .list-status-title .stats a:hover, .list-unit .list-status-title .stats a:hover .fa
 	{
-		color: var(--main-color);
+		color: var(--main-color) !important;
 	}
 	.list-unit .list-stats
 	{
-	  background: var(--hover-background) !important;
-	  color: var(--main-text) !important;
+		background: var(--hover-background) !important;
+		color: var(--main-text) !important;
 	}
 	.list-block
 	{
-    margin-top: -10px !important;
+		margin-top: -10px !important;
 	}
 
 	/*More*/
 	.list-table .more-info .more-content a, .list-table .more-info .more-content a
 	{
-	  color: var(--main-color) !important;
+		color: var(--main-color) !important;
 	}
 	.list-table .more-info .more-content a:hover, .list-table .more-info .more-content a:hover
 	{
-	  filter: brightness(110%);
+		filter: brightness(110%) !important;
 	}
 
 	/*Sort options*/
 	.list-table .list-table-header .header-title .link,
 	.list-table .list-table-header .header-title .link.sort
 	{
-		color: var(--main-text);
+		color: var(--main-text) !important;
 	}
 	.list-table .list-table-header .header-title .link.sort:hover
 	{
-		color: var(--main-color);
+		color: var(--main-color) !important;
 	}
 
 
@@ -276,7 +276,7 @@
 	.list-table .list-table-data .data .icon-watch,
 	.list-table .list-table-data .data .icon-watch-pv
 	{
-		display: none;
+		display: none !important;
 	}
 
 
