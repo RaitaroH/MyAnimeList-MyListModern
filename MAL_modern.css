@@ -1,4 +1,4 @@
-@import url(https://malcat-gen.appspot.com/series?preset=dataimagelinkbefore);
+@import url("https://malcat-gen.appspot.com/series?preset=dataimagelinkbefore");
 
 	/*Main color variables*/
 	:root
@@ -375,15 +375,22 @@
 
 	/*Covers*/
 	/*Thanks to Takana_no_Hana's layout from here https://myanimelist.net/forum/?topicid=1568061*/
-	.data.image a:before
+
+	/*In list size*/
+	.list-table .list-table-data .data.image .image
+	{
+		width: 30px !important;
+		height: auto !important;
+	}
+  	.data.image a:before
 	{
 		content: "";
 		display: block !important;
 		position: fixed;
 		top: 25%;
 		right: calc(45% + 540px);
-		width: 180px;
-		height: 230px;
+		width: 170px;
+		height: 238px;
 		background-color: transparent;
 		background-position: center !important;
 		background-repeat: no-repeat !important;
