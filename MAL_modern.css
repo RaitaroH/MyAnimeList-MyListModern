@@ -1,0 +1,307 @@
+	/*Main color variables*/
+	:root
+	{
+		/*User colors*/
+		--main-color: #00adee !important;
+		--main-background: #111111 !important;
+		--second-background: #181818 !important;
+		--hover-background: #232323 !important;
+		--main-text: #eff0f1 !important;
+		--dimer-text: #CCCCCC !important;
+		--highlight: RGBA(0, 173, 238, .4);
+		--shadow: 0 1px 0.5px rgba(0, 0, 0, 0.13);
+
+
+		/*Images*/
+		--wallpaper: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList-MyListModern/master/Images/Background.gif");
+
+		/*Colors for status*/
+		--green: #27AE60;
+		--yellow: #FDBC4B;
+		--red: #DA4453;
+
+
+		/*DeepDark colors*/
+		/*
+		--main-color: #00adee;
+		--main-background: #111111;
+		--second-background: #181818;
+		--hover-background: #232323;
+		--main-text: #eff0f1;
+		--dimer-text: #CCCCCC;
+		*/
+		/*KDE colors*/
+		/*
+		--main-color: #3DAEE9;
+		--main-background: #232629;
+		--second-background: #2a2e32;
+		--hover-background: #31363b;
+		--main-text: #eff0f1;
+		--dimer-text: #bdc3c7;
+		--highlight: RGBA(61, 174, 233, .4);
+		*/
+	}
+
+
+	/*Changed text highlight*/
+	::selection
+	{
+		background: var(--main-color) !important;
+		color: var(--main-text) !important;
+	}
+	::-moz-selection
+	{
+		background: var(--main-color) !important;
+		color: var(--main-text) !important;
+	}
+
+
+	/*Outline for links*/
+	a
+	{
+		outline-color: var(--main-color) !important;
+	}
+
+
+	/**Removing text decorations*/
+	*
+	{
+		text-decoration: none !important;
+		transition: none !important;
+		border-color: var(--hover-background) !important;
+	}
+
+
+	/*Body*/
+	body
+	{
+		background: var(--wallpaper) #000 no-repeat center fixed;
+		background-size: cover;
+	}
+
+
+	/*Header*/
+	.header .header-menu, .header .header-title
+	{
+		display: none !important;
+	}
+
+
+	/*Cover image*/
+	.cover-block
+	{
+		margin-top: -24% !important;
+		width: 1024px !important;
+		height: 470px !important;
+		overflow: hidden !important;
+	}
+	.cover-block .image-container
+	{
+		padding-top: 0 !important;
+	}
+	.cover-block .image-container .btn-list-setting
+	{
+		display: none !important;
+	}
+
+
+	/*Svgs*/
+	.fa, .list-menu-float .icon-menu svg.icon
+	{
+		color: var(--dimer-text) !important;
+		fill: var(--dimer-text) !important;
+	}
+	.fa:hover, .list-menu-float .icon-menu:hover svg.icon
+	{
+		color: var(--main-color) !important;
+		fill: var(--main-color) !important;
+	}
+
+
+	/*Sidebar*/
+	.list-menu-float
+	{
+		top: 1% !important;
+	}
+	.list-menu-float .icon-menu
+	{
+		background-color: var(--main-background) !important;
+	}
+	.list-menu-float .icon-menu.setting .text .link-list-setting, .list-menu-float .icon-menu.setting .text .link-style-setting
+	{
+		background-color: var(--main-background) !important;
+	}
+	.list-menu-float .icon-menu.setting .text .link-list-setting:hover, .list-menu-float .icon-menu.setting .text .link-style-setting:hover, .list-menu-float .icon-menu .text:hover
+	{
+		color: var(--main-color) !important;
+	}
+	/*Avatar pic*/
+	.list-menu-float .icon-menu.profile
+	{
+		display: none !important;
+	}
+	/*Status buttons*/
+	.status-menu-container
+	{
+		background-color: var(--second-background) !important;
+		width: 1024px !important;
+	}
+	.status-menu-container .status-menu .status-button
+	{
+		color: var(--main-text) !important;
+	}
+	.status-menu-container .status-menu .status-button:hover
+	{
+		color: var(--main-color) !important;
+	}
+	.status-menu-container .status-menu .status-button::after
+	{
+		background-color: var(--main-color);
+	}
+	.list-container
+	{
+		background-color: transparent !important;
+		border: none !important;
+		width: 1024px !important;
+	}
+
+
+	/*Header for list*/
+	.list-unit .list-status-title, .list-unit .list-status-title .text
+	{
+    	background-color: transparent !important;
+    	color: transparent !important;
+    	height: 0 !important;
+	}
+	/*Repositioning the filter buttons*/
+	.list-unit .list-status-title .stats
+	{
+		top: -35px !important;
+		right: 4% !important;
+	}
+	.status-menu-container .status-menu
+	{
+	  margin-left: -15px;
+	}
+	.list-table .list-table-header .header-title
+	{
+		background-color: var(--second-background);
+		border-color: var(--hover-background);
+	}
+	.list-unit .list-status-title .stats a
+	{
+		color: var(--dimer-text);
+		font-size: 1.6em;
+	}
+	.list-unit .list-status-title .stats a:hover, .list-unit .list-status-title .stats a:hover .fa
+	{
+		color: var(--main-color);
+	}
+	.list-unit .list-stats
+	{
+	  background: var(--hover-background) !important;
+	  color: var(--main-text) !important;
+	}
+	.list-block
+	{
+    margin-top: -10px !important;
+	}
+
+	/*More*/
+	.list-table .more-info .more-content a, .list-table .more-info .more-content a
+	{
+	  color: var(--main-color) !important;
+	}
+	.list-table .more-info .more-content a:hover, .list-table .more-info .more-content a:hover
+	{
+	  filter: brightness(110%);
+	}
+
+	/*Sort options*/
+	.list-table .list-table-header .header-title .link,
+	.list-table .list-table-header .header-title .link.sort
+	{
+		color: var(--main-text);
+	}
+	.list-table .list-table-header .header-title .link.sort:hover
+	{
+		color: var(--main-color);
+	}
+
+
+	/*List*/
+	.list-item:nth-of-type(2n)
+	{
+		background: var(--main-background) !important;
+	}
+	.list-item:nth-of-type(2n + 1)
+	{
+		background: var(--second-background) !important;
+	}
+	.list-item:hover
+	{
+		background: var(--highlight) !important;
+	}
+
+	/*List links*/
+	.list-table .list-table-data .data a
+	{
+		color: var(--main-text) !important;
+	}
+	.list-table .list-table-data .data a:hover
+	{
+		color: var(--main-color) !important;
+	}
+
+	/*Edit button*/
+	.list-table .list-table-data .tags .edit
+	{
+		color: var(--dimer-text) !important;
+	}
+	.list-table .list-table-data .tags .edit:hover
+	{
+		color: var(--main-color) !important;
+	}
+
+	/*Always highlighted*/
+	.list-table .list-table-data .data.score .link,
+	.list-table .list-table-data .data.title .rewatching,
+	.list-table .list-table-data .data.title .rereading,
+	.list-table .list-table-data .data.title .content-status
+	{
+		color: var(--main-color) !important;
+	}
+
+	/*Watch icon*/
+	.list-table .list-table-data .data .icon-watch,
+	.list-table .list-table-data .data .icon-watch-pv
+	{
+		display: none;
+	}
+
+
+	/*Colored bar for entries*/
+	.list-table .list-table-data .data.status.reading,
+	.list-table .list-table-data .data.status.watching
+	{
+		background-color: var(--green) !important;
+	}
+	.list-table .list-table-data .data.status.completed
+	{
+		background-color: var(--main-color) !important;
+	}
+	.list-table .list-table-data .data.status.onhold
+	{
+		background-color: var(--yellow) !important;
+	}
+	.list-table .list-table-data .data.status.dropped
+	{
+		background-color: var(--red) !important;
+	}
+
+
+	/*Footer*/
+	#footer-block
+	{
+		background: transparent !important;
+	}
