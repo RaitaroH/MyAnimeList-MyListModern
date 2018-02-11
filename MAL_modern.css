@@ -307,6 +307,13 @@
 		background: var(--highlight) !important;
 	}
 
+	/*List header width*/
+	.list-table .list-table-header .header-title.tags
+	{
+		width: 200px !important;
+	}
+	
+
 	/*List links*/
 	.list-table .list-table-data .data a
 	{
