@@ -81,11 +81,15 @@
 
 
 	/*Header*/
-	.header .header-menu, .header .header-title
+	.header .header-menu
 	{
-		display: none !important;
+		top: 65px !important;
+		right: 855px !important;
 	}
-
+	.header
+	{
+		float: left !important;
+	}
 
 	/*Cover image*/
 	.cover-block
@@ -121,7 +125,7 @@
 	/*Sidebar*/
 	.list-menu-float
 	{
-		top: 1% !important;
+		top: 10% !important;
 	}
 	.list-menu-float .icon-menu
 	{
