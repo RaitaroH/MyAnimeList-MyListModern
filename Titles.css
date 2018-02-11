@@ -1,0 +1,60 @@
+	/*Anime title highlight*/
+	.list-table .list-table-data .data.title .link:hover
+	{
+		filter: brightness(110%) !important;
+	}
+	.list-table .list-table-data .data.title .link[href*="/33/"], .list-table .list-table-data .data.title .link[href*="/71/"], .list-table .list-table-data .data.title .link[href*="/72/"],
+	.list-table .list-table-data .data.title .link[href*="/73/"], .list-table .list-table-data .data.title .link[href*="/777/"], .list-table .list-table-data .data.title .link[href*="/1/"],
+	.list-table .list-table-data .data.title .link[href*="/21/"], .list-table .list-table-data .data.title .link[href*="/4224/"], .list-table .list-table-data .data.title .link[href*="/523/"],
+	.list-table .list-table-data .data.title .link[href*="/512/"], .list-table .list-table-data .data.title .link[href*="/934/"], .list-table .list-table-data .data.title .link[href*="/6/"],
+	.list-table .list-table-data .data.title .link[href*="/43/"], .list-table .list-table-data .data.title .link[href*="/164/"], .list-table .list-table-data .data.title .link[href*="/199/"],
+	.list-table .list-table-data .data.title .link[href*="/431/"], .list-table .list-table-data .data.title .link[href*="/437/"], .list-table .list-table-data .data.title .link[href*="/572/"],
+	.list-table .list-table-data .data.title .link[href*="/578/"], .list-table .list-table-data .data.title .link[href*="/121/"], .list-table .list-table-data .data.title .link[href*="/617/"],
+	.list-table .list-table-data .data.title .link[href*="/759/"], .list-table .list-table-data .data.title .link[href*="/885/"], .list-table .list-table-data .data.title .link[href*="/889/"],
+	.list-table .list-table-data .data.title .link[href*="/1004/"], .list-table .list-table-data .data.title .link[href*="/1033/"], .list-table .list-table-data .data.title .link[href*="/1519/"],
+	.list-table .list-table-data .data.title .link[href*="/1535/"], .list-table .list-table-data .data.title .link[href*="/1575/"], .list-table .list-table-data .data.title .link[href*="/1818/"],
+	.list-table .list-table-data .data.title .link[href*="/1943/"], .list-table .list-table-data .data.title .link[href*="/2001/"], .list-table .list-table-data .data.title .link[href*="/2251/"],
+	.list-table .list-table-data .data.title .link[href*="/2966/"], .list-table .list-table-data .data.title .link[href*="/3588/"], .list-table .list-table-data .data.title .link[href*="/3901/"],
+	.list-table .list-table-data .data.title .link[href*="/4181/"], .list-table .list-table-data .data.title .link[href*="/2167/"], .list-table .list-table-data .data.title .link[href*="/4901/"],
+	.list-table .list-table-data .data.title .link[href*="/5114/"], .list-table .list-table-data .data.title .link[href*="/5341/"], .list-table .list-table-data .data.title .link[href*="/5681/"],
+	.list-table .list-table-data .data.title .link[href*="/6675/"], .list-table .list-table-data .data.title .link[href*="/10087/"], .list-table .list-table-data .data.title .link[href*="/10162/"],
+	.list-table .list-table-data .data.title .link[href*="/11061/"], .list-table .list-table-data .data.title .link[href*="/11741/"], .list-table .list-table-data .data.title .link[href*="/12355/"],
+	.list-table .list-table-data .data.title .link[href*="/59/"], .list-table .list-table-data .data.title .link[href*="/47/"], .list-table .list-table-data .data.title .link[href*="/14719/"],
+	.list-table .list-table-data .data.title .link[href*="/16662/"], .list-table .list-table-data .data.title .link[href*="/16664/"], .list-table .list-table-data .data.title .link[href*="/16782/"],
+	.list-table .list-table-data .data.title .link[href*="/18679/"], .list-table .list-table-data .data.title .link[href*="/20899/"], .list-table .list-table-data .data.title .link[href*="/22535/"],
+	.list-table .list-table-data .data.title .link[href*="/26055/"], .list-table .list-table-data .data.title .link[href*="/721/"], .list-table .list-table-data .data.title .link[href*="/268/"],
+	.list-table .list-table-data .data.title .link[href*="/339/"], .list-table .list-table-data .data.title .link[href*="/227/"], .list-table .list-table-data .data.title .link[href*="/13125/"],
+	.list-table .list-table-data .data.title .link[href*="/2593/"], .list-table .list-table-data .data.title .link[href*="/570/"], .list-table .list-table-data .data.title .link[href*="/6746/"],
+	.list-table .list-table-data .data.title .link[href*="/2904/"], .list-table .list-table-data .data.title .link[href*="/1889/"], .list-table .list-table-data .data.title .link[href*="/21843/"],
+	.list-table .list-table-data .data.title .link[href*="/58/"], .list-table .list-table-data .data.title .link[href*="/5365/"], .list-table .list-table-data .data.title .link[href*="/28149/"],
+	.list-table .list-table-data .data.title .link[href*="/1047/"], .list-table .list-table-data .data.title .link[href*="/1210/"], .list-table .list-table-data .data.title .link[href*="/7785/"],
+	.list-table .list-table-data .data.title .link[href*="/13629/"], .list-table .list-table-data .data.title .link[href*="/23285/"], .list-table .list-table-data .data.title .link[href*="/392/"],
+	.list-table .list-table-data .data.title .link[href*="/427/"], .list-table .list-table-data .data.title .link[href*="/457/"], .list-table .list-table-data .data.title .link[href*="/21329/"],
+	.list-table .list-table-data .data.title .link[href*="/21939/"], .list-table .list-table-data .data.title .link[href*="/24701/"], .list-table .list-table-data .data.title .link[href*="/24687/"],
+	.list-table .list-table-data .data.title .link[href*="/28957/"], .list-table .list-table-data .data.title .link[href*="/790/"], .list-table .list-table-data .data.title .link[href*="/6594/"],
+	.list-table .list-table-data .data.title .link[href*="/30/"], .list-table .list-table-data .data.title .link[href*="/32/"], .list-table .list-table-data .data.title .link[href*="/1462/"],
+	.list-table .list-table-data .data.title .link[href*="/323/"], .list-table .list-table-data .data.title .link[href*="/387/"], .list-table .list-table-data .data.title .link[href*="/26/"],
+	.list-table .list-table-data .data.title .link[href*="/543/"], .list-table .list-table-data .data.title .link[href*="/33/"], .list-table .list-table-data .data.title .link[href*="/820/"],
+	.list-table .list-table-data .data.title .link[href*="/949/"], .list-table .list-table-data .data.title .link[href*="/3701/"], .list-table .list-table-data .data.title .link[href*="/440/"],
+	.list-table .list-table-data .data.title .link[href*="/467/"], .list-table .list-table-data .data.title .link[href*="/801/"], .list-table .list-table-data .data.title .link[href*="/10721/"],
+	.list-table .list-table-data .data.title .link[href*="/853/"], .list-table .list-table-data .data.title .link[href*="/486/"], .list-table .list-table-data .data.title .link[href*="/28805/"],
+	.list-table .list-table-data .data.title .link[href*="/19/"], .list-table .list-table-data .data.title .link[href*="/329/"], .list-table .list-table-data .data.title .link[href*="/2164/"],
+	.list-table .list-table-data .data.title .link[href*="/145/"], .list-table .list-table-data .data.title .link[href*="/878/"], .list-table .list-table-data .data.title .link[href*="/245/"],
+	.list-table .list-table-data .data.title .link[href*="/1088/"], .list-table .list-table-data .data.title .link[href*="/5081/"], .list-table .list-table-data .data.title .link[href*="/17074/"],
+	.list-table .list-table-data .data.title .link[href*="/239/"], .list-table .list-table-data .data.title .link[href*="/12029/"], .list-table .list-table-data .data.title .link[href*="/182/"],
+	.list-table .list-table-data .data.title .link[href*="/2158/"], .list-table .list-table-data .data.title .link[href*="/584/"], .list-table .list-table-data .data.title .link[href*="/1488/"],
+	.list-table .list-table-data .data.title .link[href*="/95/"], .list-table .list-table-data .data.title .link[href*="/122/"], .list-table .list-table-data .data.title .link[href*="/81/"],
+	.list-table .list-table-data .data.title .link[href*="/263/"], .list-table .list-table-data .data.title .link[href*="/31933/"], .list-table .list-table-data .data.title .link[href*="/28735/"],
+	.list-table .list-table-data .data.title .link[href*="/3002/"], .list-table .list-table-data .data.title .link[href*="/10271/"], .list-table .list-table-data .data.title .link[href*="/658/"],
+	.list-table .list-table-data .data.title .link[href*="/1450/"], .list-table .list-table-data .data.title .link[href*="/33095/"], .list-table .list-table-data .data.title .link[href*="/45/"],
+	.list-table .list-table-data .data.title .link[href*="/44/"], .list-table .list-table-data .data.title .link[href*="/634/"], .list-table .list-table-data .data.title .link[href*="/2402/"],
+	.list-table .list-table-data .data.title .link[href*="/22789/"], .list-table .list-table-data .data.title .link[href*="/2921/"], .list-table .list-table-data .data.title .link[href*="/567/"],
+	.list-table .list-table-data .data.title .link[href*="/16706/"] .list-table .list-table-data .data.title .link[href*="/17909/"], .list-table .list-table-data .data.title .link[href*="/34076/"],
+	.list-table .list-table-data .data.title .link[href*="/17909/"], .list-table .list-table-data .data.title .link[href*="/30736/"], .list-table .list-table-data .data.title .link[href*="/1690/"],
+	.list-table .list-table-data .data.title .link[href*="/34599/"], .list-table .list-table-data .data.title .link[href*="/35557/"], .list-table .list-table-data .data.title .link[href*="/12531/"],
+	.list-table .list-table-data .data.title .link[href*="/34902/"]
+
+	/*, .list-table .list-table-data .data.title .link[href*="//"]   */
+	{
+		color: var(--main-color) !important;
+	}
