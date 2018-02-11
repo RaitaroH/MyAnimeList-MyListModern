@@ -213,6 +213,39 @@
 		margin-top: -10px !important;
 	}
 
+	/*Filtering*/
+	#advanced-options
+	{
+		background: var(--main-background) !important;
+	}
+	#advanced-options select, #advanced-options .sort-widget input[type="radio"]:checked:disabled + label, #advanced-options .sort-widget input[type="radio"] + label
+	{
+		background: var(--hover-background) !important;
+	}
+	#advanced-options select:hover, #advanced-options .sort-widget input[type="radio"]:checked:disabled + label:hover, #advanced-options .sort-widget input[type="radio"] + label:hover
+	{
+		color: var(--main-color) !important;
+	}
+	#advanced-options input[type="text"], #advanced-options .filter-widget.title input[type="text"]
+	{
+		background: var(--hover-background) !important;
+		border: 1px solid var(--hover-background) !important;
+	}
+	#advanced-options input[type="text"]:hover, #advanced-options input[type="text"]:focus, #advanced-options input[type="text"]:active,
+	#advanced-options .filter-widget.title input[type="text"]:hover, #advanced-options .filter-widget.title input[type="text"]:focus, #advanced-options .filter-widget.title input[type="text"]:active
+	{
+		transition: none !important;
+		border: 1px solid var(--main-color) !important;
+	}
+	#advanced-options .btn-apply, #advanced-options .btn-clear
+	{
+		background-color: var(--main-color) !important;
+	}
+	#advanced-options .btn-apply:hover, #advanced-options .btn-clear:hover
+	{
+		filter: brightness(110%) !important;
+	}
+
 
 	/*Searcbox*/
 	.status-menu-container .search-container #search-box
