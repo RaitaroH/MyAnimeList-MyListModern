@@ -92,6 +92,11 @@
 		left: 0% !important;
 		top: 0% !important;
 	}
+	.header .header-menu .btn-menu
+	{
+		text-align: center !important;
+		font-size: 13px !important;
+	}
 
 	/*Cover image*/
 	.cover-block
