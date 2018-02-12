@@ -19,6 +19,7 @@ Use the following import:
 ```
 @import "https://rawgit.com/RaitaroH/MyAnimeList-MyListModern/master/MAL_modern.css";
 @import "https://rawgit.com/RaitaroH/MyAnimeList-MyListModern/master/Titles.css";
+@import "https://malcat-gen.appspot.com/series?preset=dataimagelinkbefore";
 #copyright{visibility: visible;}
 ```
 
