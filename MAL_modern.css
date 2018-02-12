@@ -425,16 +425,19 @@
 	{
 		width: 30px !important;
 		height: auto !important;
+		box-shadow: var(--shadow);
 	}
 	.data.image a:before
 	{
 		content: "";
 		display: block !important;
 		position: fixed;
-		top: 25%;
-		right: calc(45% + 540px);
-		width: 170px;
-		height: 238px;
+		top: 35%;
+		/*Change to absolute and no top to have the cover show next to anime entry*/
+		/*right: calc(45% + 540px);*/ /*Use this for slide effect*/
+		right: calc(50% + 530px); /*Use this for zoom effect*/
+		width: 180px;
+		height: 252px;
 		background-color: transparent;
 		background-position: center !important;
 		background-repeat: no-repeat !important;
@@ -442,7 +445,9 @@
 		box-shadow: var(--shadow);
 		visibility: hidden;
 		opacity: 0;
-		transition: opacity .8s linear, margin-left .5s ease, transform 1s ease-in-out;
+		/*transition: opacity .8s linear, margin-left .5s ease, transform 1s ease-in-out;*//*Use this for slide effect*/
+		transition: all 0.2s ease-in-out; /*Use this for zoom effect*/
+		transform: scale(0.8); /*Use this for zoom effect*/
 		z-index: 5;
 	}
 	.list-table .list-table-data:hover .data.image a:before
@@ -450,7 +455,8 @@
 		visibility: visible;
 		opacity: 1;
 		right: calc(50% + 530px);
-		transition: .3s ease-out;
+		/*transition: .3s ease-out;*/ /*Use this for zoom effect*/
+		transform: scale(1); /*Use this for zoom effect*/
 	}
 
 
