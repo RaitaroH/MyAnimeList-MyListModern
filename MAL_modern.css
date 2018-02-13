@@ -10,6 +10,7 @@
 		--dimer-text: #CCCCCC !important;
 		--highlight: RGBA(0, 173, 238, .4);
 		--shadow: 0 1px 0.5px rgba(0, 0, 0, 0.13);
+		--shadow-thick: 0 3px 6px rgba(0,0,0,.16),0 3px 6px rgba(0,0,0,.23);
 
 
 		/*Images*/
@@ -152,6 +153,10 @@
 		display: none !important;
 	}
 	/*Status buttons*/
+	.status-menu-container.fixed
+	{
+		box-shadow: var(--shadow-thick);
+	}
 	.status-menu-container
 	{
 		background-color: var(--second-background) !important;
@@ -423,7 +428,7 @@
 	{
 		width: 30px !important;
 		height: auto !important;
-		box-shadow: var(--shadow);
+		box-shadow: var(--shadow-thick);
 	}
 	.data.image a:before
 	{
@@ -440,7 +445,7 @@
 		background-position: center !important;
 		background-repeat: no-repeat !important;
 		background-size: cover;
-		box-shadow: var(--shadow);
+		box-shadow: var(--shadow-thick);
 		visibility: hidden;
 		opacity: 0;
 		/*transition: opacity .8s linear, margin-left .5s ease, transform 1s ease-in-out;*//*Use this for slide effect*/
