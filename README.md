@@ -44,5 +44,9 @@ echo "Now pushing. Please insert password."
 git push origin master
 ```
 Example usage:
+
+```
 mal.sh https://myanimelist.net/anime/35849/Darling_in_the_FranXX added_franxx
+```
+
 [Here](https://github.com/RaitaroH/MyAnimeList-MyListModern/commit/577e107e771bf2aaa077ac158075b3e6ffa2c71d) is the actuall commit example.
