@@ -50,3 +50,36 @@ mal.sh https://myanimelist.net/anime/35849/Darling_in_the_FranXX added_franxx
 ```
 
 [Here](https://github.com/RaitaroH/MyAnimeList-MyListModern/commit/577e107e771bf2aaa077ac158075b3e6ffa2c71d) is the actual commit example.
+
+# Customization - no import
+If you want custom colors you will have to change the code first. The banner cannot be changed in the code, you will have to upload the image. Here are a couple of examples:
+
+KDE's breeze dark example:
+```
+--main-color: rgba(61, 174, 233, 1) !important;
+--main-background: rgba(35, 38, 41, .7) !important;
+--second-background: rgba(42, 46, 50, .7) !important;
+--hover-background: rgba(49, 54, 59, .8) !important;
+--main-text: rgba(239, 240, 241, 1) !important;
+--dimer-text: rgba(239, 240, 241, .7) !important;
+--highlight: rgba(61, 174, 233, .4) !important;
+/*Images*/
+--wallpaper: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/KDE_Wallpaper.png");
+--banner: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/KDE_Banner.png");
+```
+![alt-tag](https://raw.githubusercontent.com/RaitaroH/MyAnimeList-MyListModern/master/Images/Breeze.png)
+
+Mint-Y-Dark example:
+```
+--main-color: rgba(154, 184, 124, 1) !important;
+--main-background: rgba(47, 47, 47, .7) !important;
+--second-background: rgba(56, 56, 56, .7) !important;
+--hover-background: rgba(64, 64, 64, .8) !important;
+--main-text: rgba(255, 255, 255, 1) !important;
+--dimer-text: rgba(255, 255, 255, .7) !important;
+--highlight: rgba(154, 184, 124, .4) !important;
+/*Images*/
+--wallpaper: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/LM_Wallpaper2.png");
+--banner: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/LM_Banner.png");
+```
+![alt-tag](https://raw.githubusercontent.com/RaitaroH/MyAnimeList-MyListModern/master/Images/Mint.png)
