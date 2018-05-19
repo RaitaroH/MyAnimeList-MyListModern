@@ -165,7 +165,8 @@
 	.list-table .list-table-data .data.title .link[href*="/35849/"],/*Darling_in_the_FranXX*/
 	.list-table .list-table-data .data.title .link[href*="/31646/"],/*3-gatsu_no_Lion*/
 	.list-table .list-table-data .data.title .link[href*="/35180/"],/*3-gatsu_no_Lion_2nd_Season*/
-	.list-table .list-table-data .data.title .link[href*="/33674/"]/*No_Game_No_Life__Zero*/
+	.list-table .list-table-data .data.title .link[href*="/33674/"],/*No_Game_No_Life__Zero*/
+	.list-table .list-table-data .data.title .link[href*="/19703/"]/*Kyousou_Giga_TV*/
 /*	.list-table .list-table-data .data.title .link[href*="//"],/**/
 	{
 		color: var(--main-color) !important;
