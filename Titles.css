@@ -170,7 +170,8 @@
 	.list-table .list-table-data .data.title .link[href*="/31964/"],/*Boku_no_Hero_Academia*/
 	.list-table .list-table-data .data.title .link[href*="/33486/"],/*Boku_no_Hero_Academia_2nd_Season*/
 	.list-table .list-table-data .data.title .link[href*="/36456/"],/*Boku_no_Hero_Academia_3rd_Season*/
-	.list-table .list-table-data .data.title .link[href*="/31931/"]/*Full_Metal_Panic_Invisible_Victory*/
+	.list-table .list-table-data .data.title .link[href*="/31931/"],/*Full_Metal_Panic_Invisible_Victory*/
+	.list-table .list-table-data .data.title .link[href*="/36028/"]/*Golden_Kamuy*/
 /*	.list-table .list-table-data .data.title .link[href*="//"],/**/
 	{
 		color: var(--main-color) !important;
