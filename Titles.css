@@ -174,7 +174,8 @@
 	.list-table .list-table-data .data.title .link[href*="/36028/"],/*Golden_Kamuy*/
 	.list-table .list-table-data .data.title .link[href*="/36296/"],/*Hinamatsuri*/
 	.list-table .list-table-data .data.title .link[href*="/36563/"],/*Megalo_Box*/
-	.list-table .list-table-data .data.title .link[href*="/30484/"]/*Steins_Gate_0*/
+	.list-table .list-table-data .data.title .link[href*="/30484/"],/*Steins_Gate_0*/
+	.list-table .list-table-data .data.title .link[href*="/35968/"]/*Wotaku_ni_Koi_wa_Muzukashii*/
 /*	.list-table .list-table-data .data.title .link[href*="//"],/**/
 	{
 		color: var(--main-color) !important;
