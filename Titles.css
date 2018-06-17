@@ -168,7 +168,8 @@
 	.list-table .list-table-data .data.title .link[href*="/33674/"],/*No_Game_No_Life__Zero*/
 	.list-table .list-table-data .data.title .link[href*="/19703/"],/*Kyousou_Giga_TV*/
 	.list-table .list-table-data .data.title .link[href*="/31964/"],/*Boku_no_Hero_Academia*/
-	.list-table .list-table-data .data.title .link[href*="/33486/"]/*Boku_no_Hero_Academia_2nd_Season*/
+	.list-table .list-table-data .data.title .link[href*="/33486/"],/*Boku_no_Hero_Academia_2nd_Season*/
+	.list-table .list-table-data .data.title .link[href*="/36456/"]/*Boku_no_Hero_Academia_3rd_Season*/
 /*	.list-table .list-table-data .data.title .link[href*="//"],/**/
 	{
 		color: var(--main-color) !important;
