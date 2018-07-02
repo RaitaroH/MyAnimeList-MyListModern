@@ -3,7 +3,7 @@
 	{
 		filter: brightness(110%) !important;
 	}
-	
+
 	.list-table .list-table-data .data.title .link[href*="/33/"],/*Berserk*/
 	.list-table .list-table-data .data.title .link[href*="/71/"],/*Full Metal Panic!*/
 	.list-table .list-table-data .data.title .link[href*="/72/"],/*Full Metal Panic? Fumoffu*/
@@ -175,7 +175,9 @@
 	.list-table .list-table-data .data.title .link[href*="/36296/"],/*Hinamatsuri*/
 	.list-table .list-table-data .data.title .link[href*="/36563/"],/*Megalo_Box*/
 	.list-table .list-table-data .data.title .link[href*="/30484/"],/*Steins_Gate_0*/
-	.list-table .list-table-data .data.title .link[href*="/35968/"]/*Wotaku_ni_Koi_wa_Muzukashii*/
+	.list-table .list-table-data .data.title .link[href*="/35968/"],/*Wotaku_ni_Koi_wa_Muzukashii*/
+	.list-table .list-table-data .data.title .link[href*="/36884/"],/*Hisone_to_Maso-tan*/
+	.list-table .list-table-data .data.title .link[href*="/37140/"]/*Gegege_no_Kitarou_2018*/
 /*	.list-table .list-table-data .data.title .link[href*="//"],/**/
 	{
 		color: var(--main-color) !important;
