@@ -180,7 +180,8 @@
 	.list-table .list-table-data .data.title .link[href*="/37140/"],/*Gegege_no_Kitarou_2018*/
 	.list-table .list-table-data .data.title .link[href*="/22147/"],/*Amagi_Brilliant_Park*/
 	.list-table .list-table-data .data.title .link[href*="/21877/"],/*High_Score_Girl*/
-	.list-table .list-table-data .data.title .link[href*="/19815/"]/*No game no life Zero*/
+	.list-table .list-table-data .data.title .link[href*="/19815/"],/*No game no life Zero*/
+	.list-table .list-table-data .data.title .link[href*="/12189/"]/*Hyouka*/
 /*	.list-table .list-table-data .data.title .link[href*="//"],/**/
 	{
 		color: var(--main-color) !important;
