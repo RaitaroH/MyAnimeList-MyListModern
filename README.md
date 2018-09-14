@@ -1,5 +1,5 @@
 # MyAnimeListModern
-![alt tag](https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/MyList%20-%20DeepDark.png)
+![alt tag](./Images/MyList%20-%20DeepDark.png)
 My custom modern style for MAL. See bellow the code you need to use.
 
 This is a style inspired by [FT DeepDark](https://addons.mozilla.org/en-US/firefox/addon/ft-deepdark/?src=search).
@@ -11,14 +11,14 @@ Also, credit where credit is due for the color palettes and images down bellow. 
 My list [here](https://myanimelist.net/animelist/RaitaroHikami).
 
 # Screenshots
-![alt tag](https://raw.githubusercontent.com/RaitaroH/MyAnimeList-MyListModern/master/Images/DeepDark.png)
-![alt tag](https://raw.githubusercontent.com/RaitaroH/MyAnimeList-MyListModern/master/Images/BreezeDark.png)
+![alt tag](./Images/DeepDark.png)
+![alt tag](./Images/BreezeDark.png)
 
 # Installation
 Use the following import:
 ```
-@import "https://rawgit.com/RaitaroH/MyAnimeList-MyListModern/master/MAL_modern.css";
-@import "https://rawgit.com/RaitaroH/MyAnimeList-MyListModern/master/Titles.css";
+@import "https://gitlab.com/RaitaroH/MyAnimeList-MyListModern/master/MAL_modern.css";
+@import "https://gitlab.com/RaitaroH/MyAnimeList-MyListModern/master/Titles.css";
 @import "https://malcat-gen.appspot.com/series?preset=dataimagelinkbefore";
 #copyright{visibility: visible;}
 ```
@@ -49,7 +49,7 @@ Example usage:
 mal.sh https://myanimelist.net/anime/35849/Darling_in_the_FranXX added_franxx
 ```
 
-[Here](https://github.com/RaitaroH/MyAnimeList-MyListModern/commit/577e107e771bf2aaa077ac158075b3e6ffa2c71d) is the actual commit example.
+[Here](https://gitlab.com/RaitaroH/MyAnimeList-MyListModern/commit/577e107e771bf2aaa077ac158075b3e6ffa2c71d) is the actual commit example.
 
 # Customization - no import
 If you want custom colors you will have to change the code first. The banner cannot be changed in the code, you will have to upload the image. Here are a couple of examples:
@@ -64,10 +64,10 @@ KDE's breeze dark example:
 --dimer-text: rgba(239, 240, 241, .7) !important;
 --highlight: rgba(61, 174, 233, .4) !important;
 /*Images*/
---wallpaper: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/KDE_Wallpaper.png");
---banner: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/KDE_Banner.png");
+--wallpaper: url("./Images/KDE_Wallpaper.png");
+--banner: url("./Images/KDE_Banner.png");
 ```
-![alt-tag](https://raw.githubusercontent.com/RaitaroH/MyAnimeList-MyListModern/master/Images/Breeze.png)
+![alt-tag](./Images/Breeze.png)
 
 Mint-Y-Dark example:
 ```
@@ -79,7 +79,7 @@ Mint-Y-Dark example:
 --dimer-text: rgba(255, 255, 255, .7) !important;
 --highlight: rgba(154, 184, 124, .4) !important;
 /*Images*/
---wallpaper: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/LM_Wallpaper2.png");
---banner: url("https://raw.githubusercontent.com/RaitaroH/MyAnimeList/master/Images/LM_Banner.png");
+--wallpaper: url("./Images/LM_Wallpaper2.png");
+--banner: url("./Images/LM_Banner.png");
 ```
-![alt-tag](https://raw.githubusercontent.com/RaitaroH/MyAnimeList-MyListModern/master/Images/Mint.png)
+![alt-tag](./Images/Mint.png)
